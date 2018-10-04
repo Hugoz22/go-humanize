@@ -40,7 +40,7 @@ func Comma(v int64) string {
 		j--
 	}
 	parts[j] = strconv.Itoa(int(v))
-	return sign + strings.Join(parts[j:], ",")
+	return sign + strings.Join(parts[j:], ".")
 }
 
 // Commaf produces a string form of the given number in base 10 with
